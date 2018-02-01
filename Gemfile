@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+# Gems added since creation of application
+gem 'bcrypt', '~> 3.1.7'
+gem 'bootstrap-sass', '~> 3.3.7'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
