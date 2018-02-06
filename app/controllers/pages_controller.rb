@@ -1,7 +1,11 @@
 class PagesController < ApplicationController
   
   def index
-    redirect_to home_path if logged_in?
+    if logged_in?
+      redirect_to home_path
+    else
+      redirect_to signup_path
+    end
   end
   
   def home
